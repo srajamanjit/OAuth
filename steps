@@ -1,0 +1,32 @@
+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
+
+
+root@manjit-virtual-machine:/home/manjit/CODEBASE# git push -u origin testbranch
+Username for 'https://github.com': srajamanjit
+Password for 'https://srajamanjit@github.com':
+Enumerating objects: 6, done.gh
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (6/6), 468 bytes | 468.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/srajamanjit/OAuth.git
+ * [new branch]      testbranch -> testbranch
+Branch 'testbranch' set up to track remote branch 'testbranch' from 'origin'.
+root@manjit-virtual-machine:/home/manjit/CODEBASE# vi text.txt
+root@manjit-virtual-machine:/home/manjit/CODEBASE# git add .
+root@manjit-virtual-machine:/home/manjit/CODEBASE# git commit -m "my changes"
+[testbranch a0ddd59] my changes
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+root@manjit-virtual-machine:/home/manjit/CODEBASE# git push
+Username for 'https://github.com': srajamanjit
+Password for 'https://srajamanjit@github.com':
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 289 bytes | 289.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/srajamanjit/OAuth.git
+   c7b3cd3..a0ddd59  testbranch -> testbranch
+
